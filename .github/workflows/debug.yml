@@ -5,3 +5,4 @@ on:
 jobs:
   debug:
     uses: donileongdeepernetwork/reusable-github-actions-test/.github/workflows/test.yml@master
+    secrets: inherit
